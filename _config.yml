@@ -1,0 +1,47 @@
+# Site settings
+title: Eunji Lee
+email: dmswl912782@gmail.com
+description: "Atmospheric Scientist & Climate Researcher | Subseasonal-to-Seasonal Prediction & Renewable Energy Forecasting"
+url: "https://eunji-lee.github.io"
+baseurl: ""
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Frontmatter defaults
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Eunji Lee"
+
+# Exclude files
+exclude:
+  - .gitignore
+  - README.md
+  - profile.jpg
+
+# Markdown processor
+markdown: kramdown
+
+# Timezone
+timezone: Asia/Seoul
+
+# Paginate
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Social
+social_links:
+  github: eunji-lee
+  email: dmswl912782@gmail.com
+
+# Author
+author:
+  name: Eunji Lee
+  email: dmswl912782@gmail.com
